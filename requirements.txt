@@ -1,0 +1,11 @@
+# For model loading
+torch>=2.0
+transformers>=4.30
+accelerate
+
+# For the web server
+fastapi
+uvicorn
+
+# If using Hugging Face Hub to download model
+huggingface_hub
